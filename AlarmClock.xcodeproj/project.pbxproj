@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A38424C2A2B873300846E66 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A38424B2A2B873300846E66 /* ButtonView.swift */; };
+		6A38424E2A2B873900846E66 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A38424D2A2B873900846E66 /* StopwatchView.swift */; };
+		6A3842502A2B873E00846E66 /* SelectStopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A38424F2A2B873E00846E66 /* SelectStopwatchView.swift */; };
+		6A3842522A2B875100846E66 /* StopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3842512A2B875100846E66 /* StopwatchViewModel.swift */; };
+		6A3842542A2B877D00846E66 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3842532A2B877D00846E66 /* TimerView.swift */; };
+		6A793A4A2A291AA900711222 /* AlarmClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793A492A291AA900711222 /* AlarmClockApp.swift */; };
+		6A793A4C2A291AA900711222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793A4B2A291AA900711222 /* ContentView.swift */; };
+		6A793A4E2A291AAB00711222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A793A4D2A291AAB00711222 /* Assets.xcassets */; };
+		6A793A522A291AAB00711222 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A793A512A291AAB00711222 /* Preview Assets.xcassets */; };
+		6A793A592A291FF000711222 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793A582A291FF000711222 /* AlarmModel.swift */; };
+		6A793A5B2A29318200711222 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793A5A2A29318200711222 /* AlarmViewModel.swift */; };
+		6A793A5D2A293FEB00711222 /* AddAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793A5C2A293FEB00711222 /* AddAlarmView.swift */; };
+		6A793A5F2A29F0E000711222 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793A5E2A29F0E000711222 /* TestView.swift */; };
+		6A793A612A2A711400711222 /* EditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793A602A2A711400711222 /* EditAlarmView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A38424B2A2B873300846E66 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6A38424D2A2B873900846E66 /* StopwatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		6A38424F2A2B873E00846E66 /* SelectStopwatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectStopwatchView.swift; sourceTree = "<group>"; };
+		6A3842512A2B875100846E66 /* StopwatchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchViewModel.swift; sourceTree = "<group>"; };
+		6A3842532A2B877D00846E66 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		6A793A462A291AA900711222 /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A793A492A291AA900711222 /* AlarmClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockApp.swift; sourceTree = "<group>"; };
+		6A793A4B2A291AA900711222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A793A4D2A291AAB00711222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A793A4F2A291AAB00711222 /* AlarmClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlarmClock.entitlements; sourceTree = "<group>"; };
+		6A793A512A291AAB00711222 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A793A582A291FF000711222 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		6A793A5A2A29318200711222 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		6A793A5C2A293FEB00711222 /* AddAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmView.swift; sourceTree = "<group>"; };
+		6A793A5E2A29F0E000711222 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		6A793A602A2A711400711222 /* EditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlarmView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A793A432A291AA900711222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A793A3D2A291AA900711222 = {
+			isa = PBXGroup;
+			children = (
+				6A793A482A291AA900711222 /* AlarmClock */,
+				6A793A472A291AA900711222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A793A472A291AA900711222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A793A462A291AA900711222 /* AlarmClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A793A482A291AA900711222 /* AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				6A793A492A291AA900711222 /* AlarmClockApp.swift */,
+				6A8496FF2A2BE7F600C99575 /* View */,
+				6A8497012A2BE86600C99575 /* ViewModel */,
+				6A8497002A2BE83700C99575 /* Model */,
+				6A793A4D2A291AAB00711222 /* Assets.xcassets */,
+				6A793A4F2A291AAB00711222 /* AlarmClock.entitlements */,
+				6A793A502A291AAB00711222 /* Preview Content */,
+				6A793A5E2A29F0E000711222 /* TestView.swift */,
+			);
+			path = AlarmClock;
+			sourceTree = "<group>";
+		};
+		6A793A502A291AAB00711222 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A793A512A291AAB00711222 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A8496FF2A2BE7F600C99575 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A793A4B2A291AA900711222 /* ContentView.swift */,
+				6A793A5C2A293FEB00711222 /* AddAlarmView.swift */,
+				6A793A602A2A711400711222 /* EditAlarmView.swift */,
+				6A38424D2A2B873900846E66 /* StopwatchView.swift */,
+				6A3842532A2B877D00846E66 /* TimerView.swift */,
+				6A38424F2A2B873E00846E66 /* SelectStopwatchView.swift */,
+				6A38424B2A2B873300846E66 /* ButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A8497002A2BE83700C99575 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A793A582A291FF000711222 /* AlarmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A8497012A2BE86600C99575 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A793A5A2A29318200711222 /* AlarmViewModel.swift */,
+				6A3842512A2B875100846E66 /* StopwatchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A793A452A291AA900711222 /* AlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A793A552A291AAB00711222 /* Build configuration list for PBXNativeTarget "AlarmClock" */;
+			buildPhases = (
+				6A793A422A291AA900711222 /* Sources */,
+				6A793A432A291AA900711222 /* Frameworks */,
+				6A793A442A291AA900711222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlarmClock;
+			productName = AlarmClock;
+			productReference = 6A793A462A291AA900711222 /* AlarmClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A793A3E2A291AA900711222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A793A452A291AA900711222 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6A793A412A291AA900711222 /* Build configuration list for PBXProject "AlarmClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A793A3D2A291AA900711222;
+			productRefGroup = 6A793A472A291AA900711222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A793A452A291AA900711222 /* AlarmClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A793A442A291AA900711222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A793A522A291AAB00711222 /* Preview Assets.xcassets in Resources */,
+				6A793A4E2A291AAB00711222 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A793A422A291AA900711222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A793A5F2A29F0E000711222 /* TestView.swift in Sources */,
+				6A793A5D2A293FEB00711222 /* AddAlarmView.swift in Sources */,
+				6A38424C2A2B873300846E66 /* ButtonView.swift in Sources */,
+				6A793A612A2A711400711222 /* EditAlarmView.swift in Sources */,
+				6A3842502A2B873E00846E66 /* SelectStopwatchView.swift in Sources */,
+				6A793A5B2A29318200711222 /* AlarmViewModel.swift in Sources */,
+				6A3842542A2B877D00846E66 /* TimerView.swift in Sources */,
+				6A793A4C2A291AA900711222 /* ContentView.swift in Sources */,
+				6A793A4A2A291AA900711222 /* AlarmClockApp.swift in Sources */,
+				6A3842522A2B875100846E66 /* StopwatchViewModel.swift in Sources */,
+				6A793A592A291FF000711222 /* AlarmModel.swift in Sources */,
+				6A38424E2A2B873900846E66 /* StopwatchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A793A532A291AAB00711222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A793A542A291AAB00711222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6A793A562A291AAB00711222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlarmClock/AlarmClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlarmClock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A793A572A291AAB00711222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlarmClock/AlarmClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlarmClock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A793A412A291AA900711222 /* Build configuration list for PBXProject "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A793A532A291AAB00711222 /* Debug */,
+				6A793A542A291AAB00711222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A793A552A291AAB00711222 /* Build configuration list for PBXNativeTarget "AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A793A562A291AAB00711222 /* Debug */,
+				6A793A572A291AAB00711222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A793A3E2A291AA900711222 /* Project object */;
+}
